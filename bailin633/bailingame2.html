@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<title>极叶游</title>
+		<script src="layer.js"></script>
+		<link rel="stylesheet" type="text/css" href="diaoshi.css"/>
+		<link rel="stylesheet" href="./layui/css/layui.css">
+	</head>
+	<body background="bg.jpg">
+		
+		<div class="daohang">
+			
+			<ul class="layui-nav" lay-filter="">
+			  <li class="layui-nav-item layui-this"><a href="">公告</a></li>
+			  <li class="layui-nav-item layui-this"><a href="">产品</a></li>
+			  <li class="layui-nav-item"><a href="">综合</a></li>
+			  <li class="layui-nav-item">
+			    <a href="javascript:;">关于</a>
+			    <dl class="layui-nav-child"> <!-- 二级菜单 -->	
+			      <dd><a href="#" style="color: red;" onclick="javascript:alert('待定(滑稽)')">支持</a></dd>
+			      <dd><a href="#" style="color: #00B3FF;" onclick="javascript:alert('2412433138')">QQ</a></dd>
+			      <dd><a href="zanzhu.html" style="color: #FFA500;">赞助</a></dd>
+			    </dl> 
+			  </li>
+			  <li class="layui-nav-item"><a href="#" onclick="javascript:alert('暂未开发...')">社区</a></li>
+			</ul>
+			 
+			<script>
+			//导航 依赖 element 模块
+			layui.use('element', function(){
+			  var element = layui.element;
+			  
+			  //…
+			});
+			</script>
+			<!--横幅-->
+			<marquee class="hengfu" direction="right" width="310px" >极夜游运行中，由百叶斩工作室协作</marquee>
+			<!--<div class="layui-anim layui-anim-up layui-anim-loop">FUCK YOU</div>  -->   <!--弹跳-->
+				<!--时间线-->
+			<div>
+				<ul class="layui-timeline">
+				  <li class="layui-timeline-item">
+				    <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+				    <div class="layui-timeline-content layui-text">
+				      <h3 class="layui-timeline-title">2021.5.3</h3>
+				      <p>
+				   			咕咕咕咕咕咕~~	       
+				      </p>
+				    </div>
+				  </li>
+				  <li class="layui-timeline-item">
+				    <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+				    <div class="layui-timeline-content layui-text">
+				      <h3 class="layui-timeline-title">2021.5.15</h3>
+				    <p>敬请期待</p>
+					
+					<div class="ttb">
+						<i href="#" onclick="javascript:layer.open({title: '素质提示!' ,content: '操你妈的，用之前看一下公告能死？'});"
+						 class="layui-icon layui-icon-tips" style="font-size: 2.5rem; color: red;"></i> 
+					</div>
+					<style type="text/css">
+						.ttb{
+							margin-top: -9.6875rem;
+							padding-left: 16.0625rem;
+						}
+					</style>
+				      
+		</div>
+		<!--按钮xxxxxxxxxxxxxxxx-->
+		<div class="xiazai">
+			<button href="" type="button" class="layui-btn layui-btn-radius layui-btn-normal"
+			 onclick="javascript:layer.msg('获取中...')";>下载最新工具箱</button>
+		</div>
+		<style type="text/css">
+			.xiazai{
+				margin-top: 5.625rem;
+				padding-left: 0rem;
+			}
+		</style>
+		
+		<div class="fuzhugoumai">
+			<a class="layui-btn layui-btn-radius" href="shopfz.html" target=”_blank" style="width: 8.75rem;">购买VPN(打折)</a>
+		</div>
+		
+			<!--表格-->
+				<div class="biaoge">
+					<table class="layui-table" lay-size="sm">
+					  <colgroup>
+					    <col width="90">
+					    <col width="90">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th>分享员</th>
+					      <th style="color: #000000;">发布时间</th>
+					      <th style="color: black">内容</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>白林</td>
+					      <td>2021-?-?</td>
+					      <td style="color: red;">逃跑吧少年辅助</td>
+					    </tr>
+					    <tr>
+					      <td>白林</td>
+					      <td>2021-?-?</td>
+					      <td style="color: red;">飞车辅助</td>
+					    </tr>
+						<td>待定</td>
+						<td>2021-?-?</td>
+						<td style="color: red;">you gui 一份</td>
+					  </tbody>
+					</table>
+				</div>
+				
+				<div class="gugua">
+					<img width="100px" src="图片/咕呱.jpg" >
+				</div>
+				
+
+		
+		 <script src="./layui/layui.js"></script>
+	</body>
+</html>
+<script>layui.use(function(){
+    var layer = layui.layer
+    ,form = layui.form
+    ,laypage = layui.laypage
+    ,element = layui.element
+    ,laydate = layui.laydate
+    ,util = layui.util;</script>
